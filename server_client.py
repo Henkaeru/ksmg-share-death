@@ -22,7 +22,7 @@ class ServerClient:
         if now - self.last_sent_time < self.cooldown:
             return
         try:
-            requests.post(f"{self.server_url}/report_death", json={"source": self.client_name})
+            requests.post(f"{self.server_url}/report_death", json={"source": self.client_name}, headers={"Connection": "close"}, timeout=2.0)
             self.last_sent_time = now
             print("[Client] Death reported to server")
         except Exception as e:
@@ -35,7 +35,7 @@ class ServerClient:
                 time.sleep(self.poll_interval)
                 continue
             try:
-                resp = requests.get(f"{self.server_url}/check_death", params={"since": self.last_server_timestamp})
+                resp = requests.get(f"{self.server_url}/check_death", params={"since": self.last_server_timestamp}, headers={"Connection": "close"}, timeout=2.0)
                 data = resp.json()
                 for ev in data.get("death_events", []):
                     ts = ev["timestamp"]
