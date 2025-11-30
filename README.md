@@ -1,3 +1,7 @@
+### Notice
+This project includes files from **Kaizo Super Mario Galaxy Rebalanced**, which is created and owned by **TGWaluigi**.  
+I do **not** claim ownership of Kaizo Super Mario Galaxy Rebalanced. All rights belong to the original creator.
+
 # **Shared Death – KSMG**
 
 Synchronizes player deaths across multiple Dolphin Emulator clients for **Kaizo Super Mario Galaxy**.
