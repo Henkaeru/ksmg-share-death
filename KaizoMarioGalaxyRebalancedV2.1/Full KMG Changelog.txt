@@ -1,0 +1,377 @@
+KMGRebalanced Changelog:
+------------------------------------------------------------------------------------------------
+V2.1
+-Final Bug Fix Update. (Nov. 30, 2023)
+-Fixed a crash that could occur in Ghostly S.
+-Fixed a crash that could occur in Gusty Garden P.
+-Fixed Major Burrows not working correctly outside of NTSC.
+-Removed the unfinished Grand Finale Galaxy I had forgotten in the files.
+-Shrank a checkpoint area in Gold Leaf 3.
+-Fixed small a mistake in all the credits.
+-Added a few previously missing codes for the KOR version. (Though still not fully tested.)
+-Updated the changelog with new and old data for a complete timeline.
+
+V2.0
+-Huge Rework Update! (Aug. 13, 2023.)
+Peach's Castle (Opening):
+-Moved the respawn point slightly to avoid camera clipping.
+Gateway Galaxy:
+(Mission 1)
+-Edited the cutscene so you skip the bunny hide and seek entirely.
+(Mission P)
+-Fixed a launch star camera.
+-Fixed the spawn points so you start on the correct planet.
+-Removed a pipe.
+Good Egg Galaxy:
+(Mission 1)
+-Made the starchips on paths travel faster to avoid getting stuck in the rocks/chomps in the comet.
+-The secret sling star is no longer a secret.
+-Fixed a cage's rotation.
+(Mission 2)
+-Reduced the number of required starbits from 300 to 250.
+(Mission 3)
+-Removed an invisible wall to allow ledge grabbing on the side of the airship.
+-Made the King Kaliente fight a little bit more unique.
+(Mission P)
+-Added back a missing camera area.
+Honeyhive Galaxy:
+(Mission 1)
+-Made the intro cutscene look better.
+-Removed the blackhole, allowing tree skip for anyone who can pull it off.
+(Mission C)
+-Made the intro cutscene look better.
+(Mission P)
+-Added back the windmill, although it still can't move.
+-Adjusted a few purple coins.
+-Added a "safety platform" down by the slide area to reduce punishment.
+-Changed the layer of a few piranha plants so they appear in this mission.
+Flipswitch Galaxy:
+-The galaxy has been replaced with a new mission that I created on my own!
+Loopdeeloop Galaxy:
+-Altered the victory lap path slightly.
+Bowser Jr.'s Robot Reactor:
+-Added the bullet bills back to the starting planet.
+Space Junk Galaxy:
+(Mission 1)
+-Made the amps faster.
+-Added some coins and 1-ups over the "blind jump" areas.
+(Mission 2)
+-Added an appear camera to the second launch star so people don't get stuck.
+-Edited the above launch star's flight camera.
+-The Kamella boss arena is now changed.
+(Mission 3)
+-Removed camera collision from one section where the camera was previously getting stuck.
+-Made the Tarantox fight more unique.
+(Mission C)
+-Reverted it back into a speedrun that matches mission 1.
+(Mission S)
+-Added a way to get off the Yoshi head planet.
+(Mission P)
+-Raised the ceiling death area slightly.
+Battlerock Galaxy:
+(Mission 1 and P)
+-Adjusted the camera at the block section so you can actually see.
+-Adjusted another camera so you can see during a purple coin section.
+-Removed gravity areas that used to softlock and kill you inside the lazer beams.
+(Mission 2)
+-Fixed the bug where the bomb would get stuck inside the planet and softlock you.
+-Fixed respawn cameras.
+(Mission 3 and C)
+-Spiced up the Topmaniac arena.
+-Made the lazer rings last a little bit longer.
+-Fixed the music resetting before the boss in the comet mission.
+(Mission L)
+-Added an arrow sign to help find Luigi.
+-Increased the size of a gravity area.
+Hurry Scurry Galaxy:
+-Added a checkpoint closer to the launch star for quicker resets.
+Bowser's Star Reactor:
+-Fixed broken restart camera.
+Beach Bowl Galaxy:
+(Mission 2)
+-Moved the Penguin Coach.
+-Added cameras to allow jumping back down into the cave from above.
+-Removed the black hole that spawned inside the cave after exiting. (See above.)
+-Slightly repurposed the cave area to be required in this mission.
+-Moved the star spawn point.
+(Mission 3 and C)
+-Removed the big block at the end of the stone cyclone.
+-Fixed a camera area on the stone cyclone.
+-Moved a silver star.
+(Mission S)
+-Moved the golden chest slightly.
+-Fixed the secret star indicator being on the wrong star.
+-Removed the ice flower on the top section.
+-Made changes to the camera near the power star.
+-Adjusted a ? coin slightly.
+(Mission P)
+-Fixed the purple coin counter. (No longer appears on the intro cutscene.)
+-Adjusted the purple coins on the stone cyclone.
+-Added some indicator coins.
+-Moved the star and rotated the camera due to water sometimes not rendering from the cyclone.
+Ghostly Galaxy:
+(Mission 1)
+-Moved the pull star outside the mansion.
+(Mission 2 and S)
+-Added a few dry bones to the start and near end of the race for quicker resets.
+-Adjusted the goal for the race to trigger on the other side of the planet too. (Crash prevention.)
+(Mission 3 and C)
+-Made it so restarting the comet spawns you on the first planet instead of the Starshroom.
+-Added an indicator coin. (Not in the comet.)
+-Added an arrow sign.
+-Removed a camera area making it easier to make it to the first launch star.
+-Changed the layer of the echo area and ghost house inside camera so they're only in mission 1.
+-Removed two pull stars from the section before the boss.
+-The Bouldergeist boss fight is now changed.
+Bubble Breeze Galaxy:
+-Edited the camera so it stays overhead in the first half of the galaxy.
+Buoy Base Galaxy:
+(Mission 1)
+-Added an arrow sign.
+-Made the Bomp stay still for a little longer.
+-Contained the pull star chips to above the water on the tower.
+-The bubbles from the shooters now cannot be escaped from if caught in.
+-Removed the tower's checkpoint.
+(Mission G)
+-Torpedos are no longer switch activated.
+-Made the pipe cage bigger.
+-Changed a cutscene activation to better understand how to get this star.
+-Made it slightly easier to return to the tower from the pokeball planet.
+Bowser Jr.'s Airship Armada:
+-Reverted the starting airship to its vanilla self, with a slight modification.
+-Made the long pull star chip section no longer required. (It's a fun easter egg now.)
+-Raised the black hole area a bit for a quicker death.
+Drip Drop Galaxy:
+-Reworked the whole mission to be easier to understand.
+Gusty Garden Galaxy
+(Mission 2 and C)
+-Made the moles a bit faster.
+-Slightly altered the boss fight.
+-Made all the spiky plants spawn starbits.
+-Fixed the black screen glitch that occured near Major Burrows when restarting the comet mission.
+-Reverted the apple planet launch star to match mission 2. (See above.)
+(Mission 3 and S)
+-Made all the spiky plants spawn starbits.
+-Replaced some coins with starbits.
+-Made the amps faster.
+-Extended a camera area so it's easier to get to the main star.
+-Modified the gravity areas so it's easier to get the secret star.
+-Added an indicator for the secret star to make it easier to find.
+(Mission P)
+-Changed the gravity setting on a few purple coins so they appear correctly rotated.
+-Made the gravity scramble purple coins easier to find and collect.
+-Adjusted a launch star path to look smoother.
+-Fixed the broken star appear camera.
+FreezeFlame Galaxy:
+(Mission 1 and S)
+-Adjusted the black holes so it isn't as easy to die when going for the secret star.
+-Moved an arrow sign.
+-Changed the pull star chips to silver stars.
+-Contained the secret star to the summit area (including the start) as opposed to the whole planet.
+-Added a snowman and a sling star.
+-Made the Baron Brrr fight more explosive.
+(Mission 2)
+-Added back a platform to prevent forced damage. (Applies to purple coins.)
+-Added a Li'l Cinder as a less confusing form of progression. (Respawns. Applies to purple coins.)
+-Moved one Li'l Cinder and made it respawn to prevent softlocks if accidently killed.
+(Mission P)
+-Fixed the purple coin counter. (No longer appears during the fly in.)
+-Changed the layer of two mountain black holes so they appear on this mission.
+-Moved purple coins that were under sinking platforms so they aren't easily missed.
+-Moved a ground pound rock slightly lower.
+-Adjusted some other purple coins.
+Dusty Dune Galaxy:
+(Mission 2 and C)
+-Removed a duplicate launch star.
+-Fixed the power star rotation.
+-Shortened the timer of the sand steps for quicker practicing. (ONLY applies to mission 2.)
+(Mission 3)
+-Moved the starting spawn point to the left.
+-Removed the shadows for the block objects at the start.
+(Mission S)
+-Changed the lever to a ?-block.
+-Added cameras for the secret launch star and pipe.
+(Mission P)
+-Fixed the purple coin counter. (No longer appears on the intro cutscene.)
+-Changed the fly in path slightly so it looks better.
+-Added an arrow sign.
+-Moved a purple coin that was easy to miss.
+-Fixed a purple coin's rotation.
+Honeyclimb Galaxy:
+-Made the camera of the second section reach the rotated honey combs.
+-Made some starbits and the launch star spawn differently.
+-Added cameras for the launch star.
+-Made the flight path look nicer.
+-Added a few death areas for quicker resets.
+Bowser's Dark Matter Plant:
+-Fixed broken restart camera.
+-Added back two checkpoints.
+-Added back a crystal with a 1-up.
+-Moved the + shaped platform to the left to prevent a blind jump death.
+-Changed up the bowser fight a little bit.
+Bigmouth Galaxy:
+-Made the vanilla sling star not require star chips as an alternate path.
+Sea Slide Galaxy:
+(Mission 3)
+-Added back a missing sling star.
+Gold Leaf Galaxy:
+(Mission 1)
+-Added an arrow sign.
+(Mission 2+)
+-Removed the big boulder to open an alternate path.
+-Removed a spring.
+-Restored a pre-boss checkpoint.
+-Made changes to the boss fight.
+(Mission S)
+-Fixed the bubble to stay in one spot as opposed to floating away and not respawning.
+(Mission P)
+-Moved the spawn point back slightly to waste a few seconds.
+-Centered the 6-life shroom.
+Toy Time Galaxy:
+(Mission 1+)
+-Moved camera areas that were incorrectly positioned on the starting planet.
+-Moved the black hole up slightly under the starting planet.
+-Moved an arrow sign.
+(Mission 2)
+-Removed a shadow from a star chip.
+-Reworked the mission into something "familiar" instead of the boring silver stars.
+(Mission S and C)
+-Reworked these two missions so it's possible to understand without a tutorial.
+(Mission 3)
+-Moved a pull star chip, a pull star, and a music change area.
+(Mission P)
+-Fixed the broken cameras on the starting planet. (See Mission 1+)
+-Shifted the positions of the purple coins on Luigi and a few elsewhere.
+-Fixed a few incorrectly rotated purple coins.
+Bonefin Galaxy:
+-Reworked the whole mission.
+Bowser Jr.'s Lava Reactor:
+-Reverted the 6-life to a 1up.
+-Reworked the boss fight so it no longer requires damage boosting.
+Deep Dark Galaxy:
+(Mission 1 and S)
+-Added a coin trail to indicate where to scale the rocks.
+-Added the undersea enemies from mission 3.
+-Added two arrow signs to indicate levers.
+-Fixed the gate opening cutscene so it wouldn't clip through the planet. (Applies to mission 3.)
+-Added a trail of starbits and an arrow sign to show one location to throw the golden shell.
+-Made the secret star obtainable in Mission 2. (See mission below.)
+-Fixed the light area in the Boo Box not killing the Boo.
+-Changed the Kamella 2 fight arena.
+(Mission 2)
+-Added the Starshroom from the other missions.
+-Made the golden shell appear on this mission.
+-Moved an arrow sign.
+-Reverted the tennis ball planet to its original state with a minor lazer change.
+(Mission 3)
+-Modified Guppy's path slightly.
+(Mission P)
+-Shifted a few purple coins so they are easier to find.
+-Moved one purple coin to fix a softlock if missed.
+-Added cameras to the launch star and shifted its path slightly.
+Dreadnought Galaxy:
+(Mission 1)
+-Centered the lazer enemy on the first planet.
+-Made a camera in the 2D section only appear when a switch is activated.
+-Added an indicator coin.
+(Mission 2 & P)
+-Added a shrinking tile path and an arrow sign.
+-Made it so a platform doesn't appear until a collectible has been obtained.
+-Raised a death area a little bit so an accidental backflip doesn't kill you.
+-Shortened the path of the last platform.
+-Moved a ?-block due to depth perception issues.
+-Shifted a few purple coins from Mission P slightly.
+(Mission 3 & C)
+-Spiced up the second Topmaniac arena.
+-Fixed the music resetting before the boss in the comet mission.
+(Mission S)
+-Made the secret star obtainable in its original mission.
+-Moved the pipe so it's easier to find.
+(Mission P)
+-Removed the pointless sling star at the end of the first section.
+-Adjusted a few purple coins.
+Melty Molten Galaxy:
+(Mission 1 & C)
+-Added a coin trail to get up the volcano.
+-Reworked the Sinking Spire.
+-Lowered the power star slightly.
+(Mission 3)
+-Fixed issues with a launch star camera.
+-Reverted a sling star back to a launch star with a fixed camera.
+-Made changes to the circular planet before Firey Dino Piranha.
+(Mission P)
+-Repositioned a few purple coins.
+-Adjusted the launch star path and camera.
+-Fixed the main sun planet so it no longer restarts the lava animation.
+-Removed the rolling rocks on this mission.
+-Added a pipe camera.
+Matter Splatter Galaxy:
+-Fixed the lag and occasional visual bugs.
+-Removed the extra green atmospheres to match the vanilla mission again.
+Loopdeeswoop Galaxy:
+-Moved around a few coins to make indicators.
+-Shifted the positions of a few pull star chips slightly.
+-Made the water sphere slightly larger to decrease jank.
+Bowser's Galaxy Reactor:
+-Fixed the contraption at the start so it doesn't kill you on the first use.
+-Shifted around some of the less obvious star chips.
+-Added some platform indicators.
+-Fixed the respawn cameras.
+-Removed camera collision from the section where the camera was getting stuck on the thwomps.
+Misc:
+-Mailtoad now gives 99 lives!
+-Removed GhostDataStarDustGalaxy.arc from the files.
+-Removed Bug List.txt from the files. (All major bugs fixed!)
+-Reworked and fixed bugs in the xml file for riivolution. (No longer interferes with other mods.)
+-Replaced the old logo, bloom, and copyright image with new ones.
+-Replaced all 3 Luigi letter images.
+-Removed various coins from a handful of galaxies.
+-Fixed a handful of pop-in issues with viewgroups.
+-Fixed EuEnglish not working in some cases.
+-Fixed the scrolling image in the logo itself.
+-Added the languages UsSpanish, EuSpanish, and EuGerman. (Plus EuDutch)
+-Added custom code support for JP and KOR. (Not everything has been fully tested as of release.)
+-Added a save file with Luigi unlocked.
+-Added fully custom credits!
+
+KMGLegacy Edition Changelog:
+------------------------------------------------------------------------------------------------
+V1.3
+-Final Bug Fix Update. (Aug. 18, 2023)
+-Renamed the hack to Kaizo Mario Galaxy Legacy Edition
+-Fixed the XML so it won't interfere with other hacks.
+-Removed the shadows for Dusty Dune block objects.
+-Replaced the old starbit reset code with a new one that works with all regions.
+-Fixed A bug with EuEnglish not working. (Also added EuDutch)
+-Added fully custom credits from KMGRebalanced.
+-Updated Credits.txt
+-Updated README.
+-Removed ISO Builder Support. (See README)
+
+V1.2:
+-Second Bug Fix Update. (March 22, 2019)
+-Gusty Garden: Fixed the random crash
+-Sea Slide: Removed a koopa that was used for cheese
+-Dreadnought: Added an arrow so it's just a little easier to find the secret star
+-Misc: Finally a working starbit reset code for PAL users! Sorry, but it had to be done! (PAL XML updated)
+-Misc 2: Updated the V1.1 changelog with things I forgot were changed (Space Junk and Dreadnought)
+-Misc 3: Updated the bug list and the README in the Dolphin folder
+
+V1.1:
+-First Bug Fix Update. (Jan. 24, 2019)
+-Observatory: Fixed a viewgroup
+-Gateway: GBJ in purple coins fixed
+-Good Egg: Removed a checkpont in star 2. Music change bug fixed
+-Space Junk: Removed the koopas inside the airship to avoid confusion
+-Battlerock: Bomb despawn bug fixed
+-Dusty Dune/Toy Time/Battlerock: Removed a few coins
+-Airship Armada/Space Junk: Removed glitch coins
+-Ghostly: Increased the black hole area for quicker restart
+-Dark Matter Plant: Removed all checkpoints in the level
+-Gold Leaf: Patched the tree skip in the cosmic race. Find another way :P
+-Dreadnought: Removed a checkpoint that caused a softlock
+-Have A Blast (Bubble Blast): Moved a 1-up in the second section
+-Misc: Added a link for people who want to use Dolphin. Updated the bug list, credits, and README in the Dolphin folder
+
+V1.0:
+-Original Hack Release! (Nov. 1, 2018)

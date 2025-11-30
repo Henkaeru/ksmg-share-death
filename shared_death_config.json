@@ -1,0 +1,14 @@
+{
+  "network": {
+    "player_name": "Keren",
+    "uuid": "b615b114-4fd2-4213-a3a5-c863ac744edd"
+  },
+  "memory": {
+    "action_address": "0x80001820",
+    "action_type": "u8",
+    "action_value": 1
+  },
+  "dolphin": {
+    "hook_timeout": 60
+  }
+}

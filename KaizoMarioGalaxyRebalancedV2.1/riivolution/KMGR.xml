@@ -1,0 +1,155 @@
+<wiidisc version="1" root="">
+  <id game="RMG" />
+  <options>
+    <section name="KMG Rebalanced">
+      <option name="Select Your Region:">
+        <choice name="NTSC">
+          <patch id="KMGALL" />
+          <patch id="KMGUEJ" />
+          <patch id="KMGNTSC" />
+        </choice>
+        <choice name="PAL">
+          <patch id="KMGALL" />
+          <patch id="KMGUEJ" />
+          <patch id="KMGPAL" />
+        </choice>
+        <choice name="JP">
+          <patch id="KMGALL" />
+          <patch id="KMGUEJ" />
+          <patch id="KMGJP" />
+        </choice>
+        <choice name="KOR">
+          <patch id="KMGALL" />
+          <patch id="KMGKOR" />
+        </choice>
+      </option>
+      <option name="Shared death patch:">
+        <choice name="Disabled" />
+        <choice name="Enabled (NTSC only)">
+          <patch id="KMGNTSC" />
+          <patch id="SharedDeath" />
+        </choice>
+      </option>
+    </section>
+  </options>
+  <patch id="KMGALL">
+    <folder disc="/StageData" external="/KMGR/StageData" create="true" />
+    <folder disc="/ObjectData" external="/KMGR/ObjectData" create="true" />
+    <folder disc="/LayoutData" external="/KMGR/LayoutData" create="true" />
+    <folder disc="/UsEnglish" external="/KMGR/UsEnglish" create="true" />
+    <folder disc="/EuEnglish" external="/KMGR/EuEnglish" create="true" />
+    <folder disc="/UsSpanish" external="/KMGR/UsSpanish" create="true" />
+    <folder disc="/EuSpanish" external="/KMGR/EuSpanish" create="true" />
+    <folder disc="/EuGerman" external="/KMGR/EuGerman" create="true" />
+    <folder disc="/EuDutch" external="/KMGR/EuDutch" create="true" />
+    <savegame external="/KMGR/SaveData/GameSave" clone="false" />
+  </patch>
+  <patch id="KMGUEJ">
+    <memory offset="0x801DD690" value="38C00080" original="38C00020" />
+    <memory offset="0x801DCE48" value="38C00080" original="38C00020" />
+    <memory offset="0x80153D84" value="39000001" original="39000000" />
+    <memory offset="0x80001800" value="C4BB8000C03E00103C608000C0031800EC00082AD01E0010809E008C4E800020" />
+    <memory offset="0x800382B8" value="4BFC954D" />
+    <memory offset="0x8007679C" value="60000000" />
+    <memory offset="0x8053af78" value="805c985300000001805c98ba00000000805c989600000001805c985300000000805c98ba00000001805c9896000000000000000000000000" />
+    <memory offset="0x8053b000" value="805c987200000001805c98df00000001805c987200000000805c98df000000000000000000000000" />
+    <memory offset="0x8053b088" value="805c986400000000805c98ca00000001805c984400000000805c986400000001805c98ca00000000805c9844000000010000000000000000" />
+    <memory offset="0x8053b150" value="805c988600000001805c98a900000000805c988600000000805c98a9000000010000000000000000" />
+    <memory offset="0x8053C800" valuefile="/KMGR/SystemData/MapData.bin" />
+    <memory offset="0x8053BC94" valuefile="/KMGR/SystemData/ExclamationGalaxy.bin" />
+  </patch>
+  <patch id="KMGNTSC">
+    <memory offset="0x80054490" value="4836F0A9" />
+    <memory offset="0x800564C4" value="4836D075" />
+    <memory offset="0x803F82D8" value="4BC0A058" />
+    <memory offset="0x80002330" value="3860FC19483ADFB980010034483F5FA0" />
+    <memory offset="0x803F6298" value="38600000" original="4BFAF9A1" />
+    <memory offset="0x803F5D40" value="386000004E800020" original="9421FFF07C0802A6" />
+    <memory offset="0x800D02C0" value="38600000" />
+    <memory offset="0x800D5DD8" value="38600000" />
+    <memory offset="0x800D7D50" value="38600000" />
+    <memory offset="0x80275440" value="0x60000000" original="0x41820008" />
+    <memory offset="0x80275458" value="0x38800063" original="0x38800014" />
+    <memory offset="0x802750F0" value="0x2C1F0063" original="0x2C1F0014" />
+    <memory offset="0x802750FC" value="0x38800063" original="0x38800014" />
+  </patch>
+  <patch id="KMGPAL">
+    <memory offset="0x80054490" value="4836F0C5" />
+    <memory offset="0x800564C4" value="4836D091" />
+    <memory offset="0x803F82F4" value="4BC0A03C" />
+    <memory offset="0x80002330" value="3860FC19483ADFD580010034483F5FBC" />
+    <memory offset="0x803F62B4" value="38600000" original="4BFAF9A1" />
+    <memory offset="0x803F5D5C" value="386000004E800020" original="9421FFF07C0802A6" />
+    <memory offset="0x800D02C0" value="38600000" original="4831136D" />
+    <memory offset="0x800D5DD8" value="38600000" original="4830B855" />
+    <memory offset="0x800D7D50" value="38600000" original="483098DD" />
+    <memory offset="0x8027545C" value="0x60000000" original="0x41820008" />
+    <memory offset="0x80275474" value="0x38800063" original="0x38800014" />
+    <memory offset="0x8027510C" value="0x2C1F0063" original="0x2C1F0014" />
+    <memory offset="0x80275118" value="0x38800063" original="0x38800014" />
+  </patch>
+  <patch id="KMGJP">
+    <memory offset="0x80054490" value="4836F0A5" />
+    <memory offset="0x800564C4" value="4836D071" />
+    <memory offset="0x803F82D4" value="4BC0A05C" />
+    <memory offset="0x80002330" value="3860FC19483ADFB580010034483F5F9C" />
+    <memory offset="0x803F6294" value="38600000" original="4BFAF9A1" />
+    <memory offset="0x803F5D3C" value="386000004E800020" original="9421FFF07C0802A6" />
+    <memory offset="0x800D02C0" value="38600000" original="4831134D" />
+    <memory offset="0x800D5DD8" value="38600000" original="4830B835" />
+    <memory offset="0x800D7D50" value="38600000" original="483098BD" />
+    <memory offset="0x80275440" value="0x60000000" original="0x41820008" />
+    <memory offset="0x80275458" value="0x38800063" original="0x38800014" />
+    <memory offset="0x802750F0" value="0x2C1F0063" original="0x2C1F0014" />
+    <memory offset="0x802750FC" value="0x38800063" original="0x38800014" />
+  </patch>
+  <patch id="KMGKOR">
+    <memory offset="0x803F9974" value="4BC089BC" />
+    <memory offset="0x80002330" value="3860FC19483AF59980010034483F763C" />
+    <memory offset="0x803F7934" value="38600000" original="4BFAF8E5" />
+    <memory offset="0x803F73DC" value="386000004E800020" original="9421FFF07C0802A6" />
+    <memory offset="0x80054804" value="483702F1" />
+    <memory offset="0x80056838" value="4836E2BD" />
+    <memory offset="0x801DDBFC" value="38C00080" original="38C00020" />
+    <memory offset="0x801DD3B4" value="38C00080" original="38C00020" />
+    <memory offset="0x801541F4" value="39000001" original="39000000" />
+    <memory offset="0x800D0730" value="38600000" original="4831256D" />
+    <memory offset="0x800D6248" value="38600000" original="4830CA55" />
+    <memory offset="0x800D81C0" value="38600000" original="4830AADD" />
+    <memory offset="0x802759C4" value="0x60000000" original="0x41820008" />
+    <memory offset="0x802759DC" value="0x38800063" original="0x38800014" />
+    <memory offset="0x8027564C" value="0x2C1F0063" original="0x2C1F0014" />
+    <memory offset="0x80275658" value="0x38800063" original="0x38800014" />
+    <memory offset="0x80001800" value="C4BB8000C03E00103C608000C0031800EC00082AD01E0010809E008C4E800020" />
+    <memory offset="0x8003862C" value="4BFC91D5" />
+    <memory offset="0x80076B10" value="60000000" />
+    <memory offset="0x8053C570" value="805c985300000001805c98ba00000000805c989600000001805c985300000000805c98ba00000001805c9896000000000000000000000000" />
+    <memory offset="0x8053C5F8" value="805c987200000001805c98df00000001805c987200000000805c98df000000000000000000000000" />
+    <memory offset="0x8053C680" value="805c986400000000805c98ca00000001805c984400000000805c986400000001805c98ca00000000805c9844000000010000000000000000" />
+    <memory offset="0x8053C748" value="805c988600000001805c98a900000000805c988600000000805c98a9000000010000000000000000" />
+    <memory offset="0x8053DE00" valuefile="/KMGR/SystemData/MapData.bin" />
+    <memory offset="0x8053D28C" valuefile="/KMGR/SystemData/ExclamationGalaxyKR.bin" />
+  </patch>
+  <patch id="SharedDeath">
+    <!-- function body at 0x80001824 -->
+    <memory offset="0x80001824" value="0x3C608000" />
+    <memory offset="0x80001828" value="0x38631820" />
+    <memory offset="0x8000182C" value="0x88030000" />
+    <memory offset="0x80001830" value="0x2C000000" />
+    <memory offset="0x80001834" value="0x4182001C" />
+    <memory offset="0x80001838" value="0x38800000" />
+    <memory offset="0x8000183C" value="0x98830000" />
+    <memory offset="0x80001840" value="0x3D80803F" />
+    <memory offset="0x80001844" value="0x398C1E74" />
+    <memory offset="0x80001848" value="0x7D8903A6" />
+    <memory offset="0x8000184C" value="0x4E800420" />
+    <memory offset="0x80001850" value="0x3D808003" />
+    <memory offset="0x80001854" value="0x398C71D8" />
+    <memory offset="0x80001858" value="0x7D8903A6" />
+    <memory offset="0x8000185C" value="0x4E800420" />
+    <memory offset="0x80001860" value="0x00000000" />
+
+    <!-- hook jump -->
+    <memory offset="0x80182A28" value="0x4BE7EDFD" />
+  </patch>
+</wiidisc>
